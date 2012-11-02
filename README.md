@@ -1,4 +1,4 @@
 css
 ===
 
-Control-Shift Selections
+Control-Shift Selections extension for FireFox on Mac OS.
