@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>css@xeno.by</em:id>
+    <em:version>0.0.1</em:version>
+    <em:type>2</em:type>
+
+    <em:name>Control-Shift Selections</em:name>
+    <em:description>Fixes C-S-a and C-S-e on Mac OS</em:description>
+    <em:creator>Eugene Burmako</em:creator>
+    <em:homepageURL>https://github.com/xeno-by/css</em:homepageURL>
+
+    <em:targetApplication>
+      <!-- Firefox -->
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

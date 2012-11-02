@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://css/locale/css.dtd">
+<overlay id="css" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ <script type="application/x-javascript" src="css.js"/>
+</overlay>
